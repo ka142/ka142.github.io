@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "kaito san",
-    "currentPage": "13.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2262,7 +2262,7 @@
           "_params": {}
         },
         {
-          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg",
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": 0,
             "paddingBottom": "0",
