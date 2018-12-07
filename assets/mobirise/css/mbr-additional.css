@@ -3429,12 +3429,12 @@ body {
 }
 .cid-rb24kzcUDS .navbar {
   padding: .5rem 0;
-  background: #151515;
+  background: #333333;
   transition: none;
   min-height: 77px;
 }
 .cid-rb24kzcUDS .navbar-dropdown.bg-color.transparent.opened {
-  background: #151515;
+  background: #333333;
 }
 .cid-rb24kzcUDS a {
   font-style: normal;
@@ -3522,7 +3522,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rb24kzcUDS .dropdown .dropdown-menu {
-  background: #151515;
+  background: #333333;
   display: none;
   position: absolute;
   min-width: 5rem;
