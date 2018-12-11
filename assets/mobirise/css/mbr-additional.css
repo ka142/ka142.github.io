@@ -4655,8 +4655,8 @@ body {
   background-color: #181818;
 }
 .cid-rbWy34i6Sr {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #181818;
 }
 .cid-rbWy34i6Sr h4 {
@@ -4672,7 +4672,6 @@ body {
 .cid-rbWy34i6Sr .card-img {
   border-radius: 0;
   padding: 2rem 2rem 0 2rem;
-  background-color: #313131;
 }
 .cid-rbWy34i6Sr .card-img span {
   font-size: 100px;
@@ -4680,8 +4679,6 @@ body {
 }
 .cid-rbWy34i6Sr .card-box {
   padding-bottom: 2rem;
-  background-color: #313131;
-  background: linear-gradient(#313131, transparent);
 }
 .cid-rbWy34i6Sr .card-box .card-title {
   margin: 0;
