@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "kaito san",
-    "currentPage": "ok.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3023,25 +3023,6 @@
           "_global": true,
           "_once": true,
           "_params": {}
-        },
-        {
-          "_afterNavbarItem": false,
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "sound": "https://soundcloud.com/flume/hyperparadise-flume-remix",
-            "autoplay": true,
-            "fullWidth": true,
-            "bgColor": "#181818"
-          },
-          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F48985147&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F48985147",
-          "alias": "soundcloud",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "soundcloud1",
-          "_anchor": "soundcloud1-5"
         }
       ]
     },
