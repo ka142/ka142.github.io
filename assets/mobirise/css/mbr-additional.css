@@ -139,7 +139,7 @@ body {
   background-color: #313131 !important;
 }
 .bg-info {
-  background-color: #ffffff !important;
+  background-color: #ef2323 !important;
 }
 .bg-warning {
   background-color: #ffffff !important;
@@ -189,23 +189,23 @@ body {
 }
 .btn-info,
 .btn-info:active {
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
-  color: #808080 !important;
+  background-color: #ef2323 !important;
+  border-color: #ef2323 !important;
+  color: #ffffff !important;
 }
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus,
 .btn-info.active {
-  color: #808080 !important;
-  background-color: #d9d9d9 !important;
-  border-color: #d9d9d9 !important;
+  color: #ffffff !important;
+  background-color: #b80d0d !important;
+  border-color: #b80d0d !important;
 }
 .btn-info.disabled,
 .btn-info:disabled {
-  color: #808080 !important;
-  background-color: #d9d9d9 !important;
-  border-color: #d9d9d9 !important;
+  color: #ffffff !important;
+  background-color: #b80d0d !important;
+  border-color: #b80d0d !important;
 }
 .btn-success,
 .btn-success:active {
@@ -353,22 +353,22 @@ body {
 .btn-info-outline,
 .btn-info-outline:active {
   background: none;
-  border-color: #cccccc;
-  color: #cccccc;
+  border-color: #a00c0c;
+  color: #a00c0c;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #808080;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #ef2323;
+  border-color: #ef2323;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
-  color: #808080 !important;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
+  color: #ffffff !important;
+  background-color: #ef2323 !important;
+  border-color: #ef2323 !important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
@@ -474,7 +474,7 @@ body {
   color: #313131 !important;
 }
 .text-info {
-  color: #ffffff !important;
+  color: #ef2323 !important;
 }
 .text-warning {
   color: #ffffff !important;
@@ -502,7 +502,7 @@ a.text-success:focus {
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #cccccc !important;
+  color: #a00c0c !important;
 }
 a.text-warning:hover,
 a.text-warning:focus {
@@ -524,7 +524,7 @@ a.text-black:focus {
   background-color: #70c770;
 }
 .alert-info {
-  background-color: #ffffff;
+  background-color: #ef2323;
 }
 .alert-warning {
   background-color: #ffffff;
@@ -578,7 +578,7 @@ a:hover {
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #fde1e1;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -1807,7 +1807,7 @@ body {
 }
 .cid-rbBgFABqM0 {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #181818;
 }
 .cid-rbBgFABqM0 .row-links {
@@ -2359,7 +2359,7 @@ body {
 }
 .cid-rbBgrWU43o {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #181818;
 }
 .cid-rbBgrWU43o .row-links {
@@ -2954,7 +2954,7 @@ body {
 }
 .cid-rbBfuoFbbR {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #181818;
 }
 .cid-rbBfuoFbbR .row-links {
@@ -3537,7 +3537,7 @@ body {
 }
 .cid-rbBgxG5QYJ {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #181818;
 }
 .cid-rbBgxG5QYJ .row-links {
@@ -4282,11 +4282,6 @@ body {
 }
 .cid-rbBgfAdpsU foot-menu-item {
   color: #232323;
-}
-.cid-rcOOH6e59Z {
-  padding-top: 15px;
-  padding-bottom: 30px;
-  background-color: #181818;
 }
 .cid-rb24kzcUDS .navbar {
   padding: .5rem 0;
@@ -5173,7 +5168,7 @@ body {
 }
 .cid-rbBgNcac4X {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #181818;
 }
 .cid-rbBgNcac4X .row-links {
@@ -5254,11 +5249,6 @@ body {
 }
 .cid-rbBgNcac4X foot-menu-item {
   color: #232323;
-}
-.cid-rcOYHFMoqs {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #181818;
 }
 .cid-rcOStsPSVZ {
   padding-top: 90px;
@@ -5377,9 +5367,4 @@ body {
 }
 .cid-rbBgNcac4X foot-menu-item {
   color: #232323;
-}
-.cid-rcOTQqhmw5 {
-  padding-top: 15px;
-  padding-bottom: 30px;
-  background-color: #181818;
 }
