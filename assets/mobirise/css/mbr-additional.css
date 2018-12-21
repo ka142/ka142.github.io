@@ -5026,7 +5026,7 @@ body {
 }
 .cid-rcNBtnfa9r {
   padding-top: 15px;
-  padding-bottom: 120px;
+  padding-bottom: 15px;
   background-color: #181818;
 }
 .cid-rcNBtnfa9r .mbr-section-subtitle {
@@ -5126,6 +5126,51 @@ body {
 .cid-rcNBtnfa9r H2 {
   color: #ffffff;
 }
+.cid-rcNWnKi7Iz {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #181818;
+}
+.cid-rcNWnKi7Iz .card-img {
+  background-color: #fff;
+}
+.cid-rcNWnKi7Iz .card-box {
+  padding: 2rem;
+  background-color: #232323;
+}
+.cid-rcNWnKi7Iz h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rcNWnKi7Iz p {
+  text-align: left;
+}
+.cid-rcNWnKi7Iz .mbr-text {
+  color: #cccccc;
+  text-align: center;
+}
+.cid-rcNWnKi7Iz .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rcNWnKi7Iz .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-rcNWnKi7Iz .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
+.cid-rcNWnKi7Iz .card-title {
+  text-align: center;
+  color: #ffffff;
+}
 .cid-rbBgNcac4X {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -5209,51 +5254,6 @@ body {
 }
 .cid-rbBgNcac4X foot-menu-item {
   color: #232323;
-}
-.cid-rcNWnKi7Iz {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #181818;
-}
-.cid-rcNWnKi7Iz .card-img {
-  background-color: #fff;
-}
-.cid-rcNWnKi7Iz .card-box {
-  padding: 2rem;
-  background-color: #232323;
-}
-.cid-rcNWnKi7Iz h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-rcNWnKi7Iz p {
-  text-align: left;
-}
-.cid-rcNWnKi7Iz .mbr-text {
-  color: #cccccc;
-  text-align: center;
-}
-.cid-rcNWnKi7Iz .card-wrapper {
-  height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-rcNWnKi7Iz .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-@media (min-width: 992px) {
-  .cid-rcNWnKi7Iz .my-col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 15px;
-    -webkit-flex: 0 0 20%;
-  }
-}
-.cid-rcNWnKi7Iz .card-title {
-  text-align: center;
-  color: #ffffff;
 }
 .cid-rcOYHFMoqs {
   padding-top: 30px;
