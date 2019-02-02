@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color :#313131;
+color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 77px;
+  font-size: 17px;
+  width: 100%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#الرئيسية {background-color:#0099ff;}
+</style>
+</head>
+<body>
+<div id="الرئيسية" class="tabcontent">
+  <h1>الرئيسية</h1>
+  <p>(: بتلقى فيها كل اللي بيرضيك </p>
+</div>
+
+
+<a href="index.html">
+<button class="tablink" onclick="openCity('الرئيسية', this, '#ff9999')">العودة للصفحة الرئيسية</button> </a>
+
+<script>
+function openCity(cityName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cityName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script> <hr>
+<center>
+<h1>404.</h1>
+<p> اوه . يبدو ان هنالك خطا بالرابط او ان الصفحة غير متوفرة </p>
+<br>
+<br>
+<img src="h1.jpg" title="404 eroor">
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
