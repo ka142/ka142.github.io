@@ -10,9 +10,9 @@ background-color: #313131}
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 9px;
+  padding: 14px 16px;
   font-size: 17px;
-  width: 20%;
+  width: 25%;
 }
 
 .tablink:hover {
@@ -31,7 +31,6 @@ background-color: #313131}
 #اشعارات {background-color:#8BCF6F;}
 #بروفايلك {background-color:#5BC4B1;}
 #اعدادات {background-color:#b3b3b3;}
-#منشورات {background-color:#ff9999;}
 
 .default:hover {
   background: #e7e7e7;
@@ -43,30 +42,6 @@ background-color: #313131}
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-}
-/* The alert message box */
-.alert {
-  padding: 20px;
-  background-color: #ff9999; /* Red */
-  color: white;
-  margin-bottom: 15px;
-}
-
-/* The close button */
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* When moving the mouse over the close button */
-.closebtn:hover {
-  color: black;
 }
 </style>
 <body>
@@ -92,20 +67,15 @@ background-color: #313131}
   <h1>اعدادات</h1>
   <p>اعداداتك التي تمنح لك حرية الاستعمال</p>
 </div>
-
-<div id="منشورات" class="tabcontent">
-  <h1>منشورات</h1>
-  <p>انشر و تابع اخر واحدث المنشورات العربية</p>
-</div>
-<button class="tablink" onclick="openCity('الرئيسية', this, '#0099ff')" id="defaultOpen">الرئيسية</button> 
+<a href="index.html">
+<button class="tablink" onclick="openCity('الرئيسية', this, '#0099ff')">الرئيسية</button> </a>
 <a href="page1.html">
 <button class="tablink" onclick="openCity('اشعارات', this, '#8BCF6F')">اشعارات</button> </a>
 <a href="page2.html">
 <button class="tablink" onclick="openCity('بروفايلك', this, '#5BC4B1')">بروفايلك</button></a>
-<a href="page3.html">
-<button class="tablink" onclick="openCity('اعدادات', this, '#b3b3b3')">اعدادات</button></a>
-<a href="page4.html">
-<button class="tablink" onclick="openCity('منشورات', this, '#ff9999')">منشورات</button></a>
+
+<button class="tablink" onclick="openCity('اعدادات', this, '#b3b3b3')" id="defaultOpen">اعدادات</button>
+
 <script>
 function openCity(cityName,elmnt,color) {
   var i, tabcontent, tablinks;
@@ -123,7 +93,6 @@ function openCity(cityName,elmnt,color) {
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-var x = "Is the browser online? " + navigator.onLine;
 </script> <hr>
 <center>
 <a href="create.html">
@@ -155,13 +124,5 @@ var x = "Is the browser online? " + navigator.onLine;
 </a>
 </center>
 <hr><br>
-<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  هاذا الموقع قيد الانشاء الى عام 2020
-</div>
-<center>
-<a href="create.html">
-<img src="h2.jpg" title="Ad"></a>
-</center>
 </body>
 </html>
