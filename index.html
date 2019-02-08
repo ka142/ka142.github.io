@@ -1,167 +1,207 @@
-<html>
-<style>
-body {font-family: "Lato", sans-serif;
-background-color: #313131}
-
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 9px;
-  font-size: 17px;
-  width: 20%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-#الرئيسية {background-color:#0099ff;}
-#اشعارات {background-color:#8BCF6F;}
-#بروفايلك {background-color:#5BC4B1;}
-#اعدادات {background-color:#b3b3b3;}
-#منشورات {background-color:#ff9999;}
-
-.default:hover {
-  background: #e7e7e7;
-}
-.btn {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-}
-/* The alert message box */
-.alert {
-  padding: 20px;
-  background-color: #ff9999; /* Red */
-  color: white;
-  margin-bottom: 15px;
-}
-
-/* The close button */
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* When moving the mouse over the close button */
-.closebtn:hover {
-  color: black;
-}
-</style>
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.8.10, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.8.10, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/5456-122x122.png" type="image/x-icon">
+  <meta name="description" content="موقع شخصي لكايتو سان">
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/gdpr-plugin/gdpr-styles.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
 <body>
 
-
-
-<div id="الرئيسية" class="tabcontent">
-  <h1>الرئيسية</h1>
-  <p>(: بتلقى فيها كل اللي بيرضيك </p>
-</div>
-
-<div id="اشعارات" class="tabcontent">
-  <h1>اشعارات</h1>
-  <p>تابع اشعاراتك اول باول من هنا</p> 
-</div>
-
-<div id="بروفايلك" class="tabcontent">
-  <h1>بروفايلك</h1>
-  <p>هنا هو حسابك الرائع</p>
-</div>
-
-<div id="اعدادات" class="tabcontent">
-  <h1>اعدادات</h1>
-  <p>اعداداتك التي تمنح لك حرية الاستعمال</p>
-</div>
-
-<div id="منشورات" class="tabcontent">
-  <h1>منشورات</h1>
-  <p>انشر و تابع اخر واحدث المنشورات العربية</p>
-</div>
-<button class="tablink" onclick="openCity('الرئيسية', this, '#0099ff')" id="defaultOpen">الرئيسية</button> 
-<a href="page1.html">
-<button class="tablink" onclick="openCity('اشعارات', this, '#8BCF6F')">اشعارات</button> </a>
-<a href="page2.html">
-<button class="tablink" onclick="openCity('بروفايلك', this, '#5BC4B1')">بروفايلك</button></a>
-<a href="page3.html">
-<button class="tablink" onclick="openCity('اعدادات', this, '#b3b3b3')">اعدادات</button></a>
-<a href="page4.html">
-<button class="tablink" onclick="openCity('منشورات', this, '#ff9999')">منشورات</button></a>
+<!-- Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130350320-1"></script>
 <script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-var x = "Is the browser online? " + navigator.onLine;
-</script> <hr>
-<center>
-<a href="create.html">
-<button class="btn default">اضف منشورك الان</button>
-</a>
+  gtag('config', 'UA-130350320-1');
+</script>
 
-<a href="create.html">
-<button class="btn default">تسجيل الدخول </button>
-</a>
+<!-- /Google Analytics -->
 
-<a href="create.html">
-<button class="btn default">انشاء حساب</button>
-</a>
 
-<a href="create.html">
-<button class="btn default">لوحة البرمجة</button>
-</a>  
+  <section class="menu cid-rcjgfcyWUC" once="menu" id="menu1-1b">
 
-<a href="create.html">
-<button class="btn default">تاثيرات</button>
-</a>
+    
 
-<a href="create.html">
-<button class="btn default">قوالب</button>
-</a>
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top collapsed">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://ka142.github.io/">
+                         <img src="assets/images/5456-122x122.png" alt="Mobirise" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="https://mobirise.co">kaito san</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            
+        </div>
+    </nav>
+</section>
 
-<a href="create.html">
-<button class="btn default">عن الموقع</button>
-</a>
-</center>
-<hr><br>
-<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-  هاذا الموقع قيد الانشاء الى عام 2020
-</div>
-<center>
-<a href="create.html">
-<img src="h2.jpg" title="Ad"></a>
-</center>
-</body>
+<section class="engine"><a href="https://mobirise.info/g">build a site</a></section><section class="countdown1 cid-rgEZ83aUUJ" id="countdown1-36">
+    
+    
+    
+    <div class="container ">
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">- سنكون هنا قريباً -</h2>
+        <h3 class="mbr-section-subtitle align-center mbr-fonts-style display-5">اقلب شاشة الجوال اذا لاحظت ان الارقام<br>نزلت تحت بعض&nbsp;<br>- ترقبو الافتتاح -<br>- نعمل بجهد لتطوير الموقع الجديد -<br>- اكتب اقتراحاتك بالنموذج التالي -<br>- شارك واحفظ الموقع فضلاً -<br>- اريغاتو -</h3>
+        
+    </div>
+    <div class="container countdown-cont align-center">
+        <div class="daysCountdown" title="day"></div>
+        <div class="hoursCountdown" title="Hour"></div> 
+        <div class="minutesCountdown" title="Minute"></div> 
+        <div class="secondsCountdown" title="Second"></div>
+        <div class="countdown pt-5 mt-2" data-due-date="2019/08/13"> 
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section form1 cid-rgF2yEp1j5" id="form1-37">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-12 col-lg-8">
+                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">- اقتراحاتك -</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">اكتب الاقتراحات والافكار اللي تبغانا نطبقها<br>في الموقع الجديد<br>سيكون موقع تواصل اجتماعي عربي<br></h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="media-container-column col-lg-8" data-form-type="formoid">
+                    <div data-form-alert="" hidden="">شكراُ لك , نقدر مساعدتكم لنا حقاً</div>
+            
+                    <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="jqt9WN3swLC00TyzCU8h6mT/SClEDqzSWHmfqvjsMavOIXNtjopSDyUg9giPYMI2VMprH0LCvpsa8LVCeS8Ootnr+WVtstQWLYZaSaEZMuVEFwPiV7alcF3c6W+Iv6O2">
+                        <div class="row row-sm-offset">
+                            
+                            
+                            
+                        </div>
+                        <div class="form-group" data-for="message">
+                            <label class="form-control-label mbr-fonts-style display-7" for="message-form1-37">Message</label>
+                            <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-37"></textarea>
+                        </div>
+            
+                        <span class="input-group-btn"><button href="" type="submit" class="btn btn-primary btn-form display-4">ارسال الاقتراح</button></span>
+                    <span class="gdpr-block "><label><input type="checkbox" name="gdpr" id="gdpr-form1-37" required="">By continiung you agree to our <a href="terms.html">Terms of Service</a> and <googled0b2e9302b010761.html'>Privacy Policy.</googled0b2e9302b010761.html'></label></span></form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-rgF41Zmu7x" id="social-buttons3-38">
+    
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-md-8 align-center">
+                <h2 class="pb-3 mbr-section-title mbr-fonts-style display-2">- شارك الموقع مع اصدقائك -</h2>
+                <div>
+                    <div class="mbr-social-likes">
+                        <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
+                            <i class="socicon socicon-facebook"></i>
+                        </span>
+                        <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
+                            <i class="socicon socicon-twitter"></i>
+                        </span>
+                        <span class="btn btn-social plusone socicon-bg-googleplus mx-2" title="Share link on Google+">
+                            <i class="socicon socicon-googleplus"></i>
+                        </span>
+                        <span class="btn btn-social vkontakte socicon-bg-vkontakte mx-2" title="Share link on VKontakte">
+                            <i class="socicon socicon-vkontakte"></i>
+                        </span>
+                        <span class="btn btn-social odnoklassniki socicon-bg-odnoklassniki mx-2" title="Share link on Odnoklassniki">
+                            <i class="socicon socicon-odnoklassniki"></i>
+                        </span>
+                        <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
+                            <i class="socicon socicon-pinterest"></i>
+                        </span>
+                        <span class="btn btn-social mailru socicon-bg-mail mx-2" title="Share link on Mailru">
+                            <i class="socicon socicon-mail"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section once="" class="cid-rcXwuGW066" id="footer7-2x">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            
+            
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7"><br><strong>©</strong> Copyright 2019<strong>&nbsp;- </strong>website <strong>Hemino&nbsp;</strong><br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/cookies-alert-plugin/cookies-alert-core.js"></script>
+  <script src="assets/cookies-alert-plugin/cookies-alert-script.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/countdown/jquery.countdown.min.js"></script>
+  <script src="assets/sociallikes/social-likes.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
+    <input name="animation" type="hidden">
+  <input name="cookieData" type="hidden" data-cookie-text="نحفظ  سجلات الكوكيز لدى الموقع لضمان امان المستخدم  ولنمنحه  تجربة لامثيل لها </a>.">
+  </body>
 </html>
