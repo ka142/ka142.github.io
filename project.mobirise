@@ -70,7 +70,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "kaito san | Home",
         "meta_descr": "موقع شخصي لكايتو سان",
         "header_custom": "",
         "footer_custom": "",
@@ -680,10 +680,10 @@
         }
       ]
     },
-    "12.html": {
+    "open.html": {
       "settings": {
         "meta_descr": "عطنا رايك",
-        "title": "message",
+        "title": "photo's",
         "order": 5
       },
       "components": [
