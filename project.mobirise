@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "kaito san",
-    "currentPage": "2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,8 +51,8 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 127,
-    "versionPublish": "4.9.3",
+    "uniqCompNum": 129,
+    "versionPublish": "4.9.5",
     "favicon": "",
     "noImageResize": "",
     "screenshot": "screenshot.png",
@@ -572,6 +572,40 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "ricDY2dVdM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"https://twitter.com/kaito_ksa_88\" data-app-placeholder=\"Type Text\" target=\"_blank\">&lt; my server on Discord &gt;</a>\n                    <a class=\"btn btn-black\" href=\"mailto:ka615778@gmail.com\" data-app-placeholder=\"Type Text\">&lt; My Email &nbsp;On Gmail &nbsp;&gt;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-3j",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rkcdKtfpFD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"mailto:rarv6@outlook.com\" data-app-placeholder=\"Type Text\">&lt; My Email On Outlook &gt;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-3k",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rkceO6e2Yg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
