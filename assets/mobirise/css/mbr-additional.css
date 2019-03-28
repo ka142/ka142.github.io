@@ -1383,9 +1383,25 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #0babef;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #0babef;
+}
 .cid-riblvQ5WVJ {
   padding-top: 120px;
   padding-bottom: 45px;
+  background-color: #232323;
+}
+.cid-rlYElX8ml7 {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #232323;
 }
 .cid-ribnplbn4h {
