@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "kaito san",
-    "currentPage": "index.html",
+    "currentPage": "2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 128,
+    "uniqCompNum": 130,
     "versionPublish": "4.9.7",
     "favicon": "",
     "noImageResize": "",
@@ -1144,6 +1144,31 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "postToLoad": "1",
+            "facebook": "kaito.ksa.88",
+            "twitter": "https://twitter.com/kaito_ksa_88",
+            "google": "",
+            "youtube": "UCl7DGbS0T4QGItqVGn6jTRg",
+            "bgColorRadio": true,
+            "bgColor": "#232323",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1086.jpg",
+            "overlay": true,
+            "overlayColor": "#232323",
+            "overlayOpacity": "0"
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-3l"
         },
         {
           "_styles": {
