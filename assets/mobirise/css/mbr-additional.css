@@ -1397,7 +1397,7 @@ body {
 .cid-riblvQ5WVJ {
   padding-top: 120px;
   padding-bottom: 45px;
-  background-color: #7f1933;
+  background-color: #cc2952;
 }
 .cid-rlYElX8ml7 {
   padding-top: 30px;
@@ -1407,12 +1407,17 @@ body {
 .cid-ribnplbn4h {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #b1a374;
+  background-color: #0babef;
 }
-.cid-ribpzawgKN {
+.cid-ricDY2dVdM {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #0babef;
+  background-color: #232323;
+}
+.cid-rkcdKtfpFD {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #8cadff;
 }
 .cid-rcjgfcyWUC .navbar {
   padding: .5rem 0;
@@ -1816,21 +1821,6 @@ body {
   padding-bottom: 30px;
   background-color: #cc2952;
 }
-.cid-ricDY2dVdM {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #232323;
-}
-.cid-rkcdKtfpFD {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #8cadff;
-}
-.cid-rkceO6e2Yg {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #32c251;
-}
 .cid-riCbo3dsX8 {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -1915,12 +1905,12 @@ body {
 }
 .cid-rb24kzcUDS .navbar {
   padding: .5rem 0;
-  background: #0babef;
+  background: #181818;
   transition: none;
   min-height: 77px;
 }
 .cid-rb24kzcUDS .navbar-dropdown.bg-color.transparent.opened {
-  background: #0babef;
+  background: #181818;
 }
 .cid-rb24kzcUDS a {
   font-style: normal;
@@ -2008,7 +1998,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rb24kzcUDS .dropdown .dropdown-menu {
-  background: #0babef;
+  background: #181818;
   display: none;
   position: absolute;
   min-width: 5rem;
