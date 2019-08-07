@@ -597,15 +597,15 @@
         {
           "_afterNavbarItem": false,
           "_params": {
-            "paddingTop": 0,
+            "paddingTop": "0",
             "paddingBottom": 0,
-            "sound": "https://soundcloud.com/mobirise/blue-skies",
+            "sound": "https://soundcloud.com/kiraramagic/honey-feat-shion",
             "autoplay": true,
             "fullWidth": false,
-            "bgColor": "#fff"
+            "bgColor": "#8cadff"
           },
-          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F234652184&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F234652184",
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F650780093&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F650780093",
           "alias": "soundcloud",
           "_tags": [
             "Extension"
