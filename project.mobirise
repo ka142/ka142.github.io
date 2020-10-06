@@ -53,7 +53,7 @@
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
