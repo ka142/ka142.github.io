@@ -1037,34 +1037,76 @@ a {
     left: -1rem;
   }
 }
-.cid-saN4jdsbFX {
-  background-image: url("../../../assets/images/4-2000x1125.png");
+.cid-sksDF0oeFS {
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+  background-color: #000000;
 }
-.cid-saN4jdsbFX .social-row .soc-item {
-  display: inline-block;
+.cid-sksDF0oeFS .mbr-section-title,
+.cid-sksDF0oeFS .mbr-text,
+.cid-sksDF0oeFS .mbr-section-btn {
   text-align: center;
-  margin-bottom: 1rem;
-  margin-right: .7rem;
 }
-.cid-saN4jdsbFX .social-row .soc-item .mbr-iconfont {
+.cid-sksDF0oeFS .video-wrapper {
+  margin: auto;
+}
+.cid-sksDF0oeFS .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sksDF0oeFS .mbr-section-title {
+  color: #ffffff;
+}
+.cid-sksDF0oeFS .mbr-text,
+.cid-sksDF0oeFS .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-skd8UDLgUl {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+}
+.cid-skd8UDLgUl .bg-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+}
+.cid-skd8UDLgUl .bg-twitter:hover {
+  background: #0c85d0;
+}
+.cid-skd8UDLgUl .bg-instagram {
+  background: #f00075;
+  color: #ffffff;
+}
+.cid-skd8UDLgUl .bg-instagram:hover {
+  background: #bd005c;
+}
+.cid-skd8UDLgUl .bg-tiktok {
+  background: #000000;
+  color: #ffffff;
+}
+.cid-skd8UDLgUl .bg-tiktok:hover {
+  background: #000000;
+}
+.cid-skd8UDLgUl .bg-youtube {
+  background: #ff0000;
+  color: #ffffff;
+}
+.cid-skd8UDLgUl .bg-youtube:hover {
+  background: #cc0000;
+}
+.cid-skd8UDLgUl .iconfont-wrapper {
+  display: inline-block;
   font-size: 32px;
   border-radius: 50%;
-  padding: 0.6rem;
-  border: 2px solid #000000;
-  transition: all 0.3s;
-  color: #000000;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
 }
-.cid-saN4jdsbFX .social-row .soc-item .mbr-iconfont:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-.cid-saN4jdsbFX .mbr-section-title {
-  color: #e4ff00;
-}
-.cid-saN4jdsbFX .mbr-text,
-.cid-saN4jdsbFX .mbr-section-btn,
-.cid-saN4jdsbFX .social-row {
-  color: #ffffff;
+.cid-skd8UDLgUl [class^="socicon-"]:before,
+.cid-skd8UDLgUl [class*=" socicon-"]:before {
+  line-height: 55px;
+  padding: .6rem;
 }
 .cid-saqE6UDcqs {
   padding-top: 15px;
