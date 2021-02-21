@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-02-21_1231",
-    "currentPage": "404.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -160,7 +160,7 @@
         }
       ]
     },
-    "404.html": {
+    "account.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Kaito San - My Accounts",
